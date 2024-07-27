@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <!--The CSS styling-->
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to right, #8AC7DB, #7BB868);
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        padding: 20px;
+    }
+    .container {
+        width: 320px;
+        background-color: rgba(255, 255, 255, 0.2);
+        text-align: center;
+        padding: 20px;
+        border-radius: 16px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .temp {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+    .summary {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    .location {
+        font-size: 1rem;
+    }
+    </style>
+</head>
+  
+<body>
+    <div class="container">
+      
+        <div class="temp">25°C</div>
+        <div class="summary">Sunny</div>
+        <div class="location">San Francisco, CA</div>
+    </div>
+    <!--Linking the JavaScript code-->
+    <script src="script.js"></script>
+</body>
+  
+</html>
